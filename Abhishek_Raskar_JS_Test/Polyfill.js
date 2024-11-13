@@ -28,3 +28,19 @@ if (!Array.prototype.reduce) {
         return acc;
     };
 }
+
+// Filter
+if (!Array.prototype.filter) {
+    Array.prototype.filter = function (cb) {
+        if (this === null) {
+            throw new TypeError("Error")
+        }
+        let res = [];
+        for (let i = 0; i < this.length; i++) {
+            if (cb(this[i], i, this)) {
+                res.push(this[i])
+            }
+        }
+        return res;
+    }
+}
