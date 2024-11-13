@@ -12,6 +12,6 @@
 3. Hoisting: var is hoisted and can be accessed before it’s defined, but let and const are hoisted differently and will give an error if accessed before they are declared.
 
 3. Programming Language vs Scripting Language:
-   -Programming Language: Used to write software that runs on its own, often compiled (like Java or C++).
+   - Programming Language: Used to write software that runs on its own, often compiled (like Java or C++).
    - Scripting Language: Used to automate tasks in software, usually interpreted (like JavaScript or Python).
    JavaScript is a scripting language, used to add interactivity to web pages.
